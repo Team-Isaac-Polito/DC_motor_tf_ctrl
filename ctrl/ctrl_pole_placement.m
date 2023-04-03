@@ -1,4 +1,9 @@
-%% controller
+clc,
+clear all,
+clos all,
+
+% add to the Matlab path the dioph folder!
+
 f = 100;
 Ts = 1/f;
 z = tf('z',Ts);
